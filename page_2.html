@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Student Success Portal</title>
 </head>
 
 <body>
 
     <header>
-            <a href = "">Skip to Main Content</a>
+        <div class="skip"><a href = "">Skip to Main Content</a></div>
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
@@ -24,51 +26,59 @@
     </header>
 
     <main>
-        <img src="images/Maize_and_Blue_Cupboard_logo.jpg" alt="Logo of the Maize and Blue Cupboard">
-        <h2>Who are We?</h2>
-        <p>College students and staff are experiencing food insecurity at alarming rates. The Maize and Blue Cupboard is here to provide an immediate and comprehensive response for the U-M community. By offering resources, educational opportunities, compassionate support and more, we help students develop the skills to make informed decisions.</p>
-        <div>
-            <h2>What do we provide?</h2>
+        <section>
+            <img src="images/Maize_and_Blue_Cupboard_logo.jpg" alt="Logo of the Maize and Blue Cupboard">
+            <h2>Who are We?</h2>
+            <p>College students and staff are experiencing food insecurity at alarming rates. The Maize and Blue Cupboard is here to provide an immediate and comprehensive response for the U-M community. By offering resources, educational opportunities, compassionate support and more, we help students develop the skills to make informed decisions.</p>
+        </section>
+        <section>
+            <div class = "div_page_2">
+                <h2>What do we provide?</h2>
+                <p>FOOD:</p>
+                <img src="images/Food_Icon.png" alt="A bag of grocerries">
+                <!--#1 "Food Pantry"-->
+                <ol>
+                    <li>Produce</li>
+                    <li>Dairy</li>
+                    <li>Meat</li>
+                    <li>Bread</li>
+                    <li>Frozen</li>
+                    <li>Shelf-stable foods (i.e. rice, cans, tuna, etc.)</li>
+                    <li>And More!</li>
+                </ol>
+                <img src="images/apples_in_bag.jpg" alt="Apples being carried in a bag">
+            </div>
 
-            <p>FOOD:</p>
-            <img src="images/Food_Icon.png" alt="A bag of grocerries">
-            <!--#1 "Food Pantry"-->
-            <ol>
-                <li>Produce</li>
-                <li>Dairy</li>
-                <li>Meat</li>
-                <li>Bread</li>
-                <li>Frozen</li>
-                <li>Shelf-stable foods (i.e. rice, cans, tuna, etc.)</li>
-            </ol>
-            <img src="images/apples_in_bag.jpg" alt="Apples being carried in a bag">
+            <div class = "div_page_2">
+                <p>KITCHEN & COOKING:</p>
+                <img src="images/Kitchen_Icon.png" alt="A steaming pot">
+                <ol>
+                    <li>Dishes</li>
+                    <li>Silverware</li>
+                    <li>Pots & pans</li>
+                    <li>Tupperware</li>
+                    <li>Cutting boards</li>
+                    <li>Knives</li>
+                    <li>And more!</li>
+                </ol>
+            </div>
 
-            <p>KITCHEN & COOKING:</p>
-            <img src="images/Kitchen_Icon.png" alt="A steaming pot">
-            <ol>
-                <li>Dishes</li>
-                <li>Silverware</li>
-                <li>Pots & pans</li>
-                <li>Tupperware</li>
-                <li>Cutting boards</li>
-                <li>Knives</li>
-                <li>And more!</li>
-            </ol>
+            <div class = "div_page_2">
+                <p>PERSONAL & HOUSEHOLD:</p>
+                <img src="images/Cleaning_Icon.png" alt="A bottle of cleaning soap">
+                <ol>
+                    <li>Trash bags</li>
+                    <li>Toilet paper</li>
+                    <li>Cleaning supplies</li>
+                    <li>Hygiene products</li>
+                    <li>School supplies</li>
+                    <li>Baby items</li>
+                    <li>And more!</li>
+                </ol>
+            </div>
+        </section>
 
-            <p>PERSONAL & HOUSEHOLD:</p>
-            <img src="images/Cleaning_Icon.png" alt="A bottle of cleaning soap">
-            <ol>
-                <li>Trash bags</li>
-                <li>Toilet paper</li>
-                <li>Cleaning supplies</li>
-                <li>Hygiene products</li>
-                <li>School supplies</li>
-                <li>Baby items</li>
-                <li>And more!</li>
-            </ol>
-        </div>
-
-        <div>
+        <section class="three_grid">
             <h2>How to Help</h2>
             <a href = "https://mbc.studentlife.umich.edu/how-to-help/#money">Money</a>
             
@@ -80,24 +90,22 @@
                 <p>These funds will be used for long-term projects and sustainability programs. Gifts to this endowed fund will provide crucial support to students struggling with hunger and food insecurity.</p>
                 <h3>Maize and Blue Cupboard Fund</h3>
                 <p>Donating to this fund will ensure your dollar goes further immediately. Maize and Blue Cupboard is a food pantry that provides crucial support to students struggling with hunger and food insecurity. It’s hard to get a full ‘Michigan Education’ if you’re worrying about where your next meal is coming from. Funds are used to help purchase food, student programming, and facility use.</p>
+            </div>
+
+            <div>
                 <h3>Strong Enough for All Fund</h3>
                 <p>Gifts to this endowed fund support the critical and immediate needs of students at the Maize and Blue Cupboard. The Maize and Blue Cupboard provides students experiencing food insecurity with healthy food and personal products which improve their overall Michigan experience.</p>
-            </div>
-
-            <ol>
-            <li><a href = "https://mbc.studentlife.umich.edu/how-to-help/#time">Time</a></li>
-            </ol>
-            <div>
+                <ol>
+                    <li><a href = "https://mbc.studentlife.umich.edu/how-to-help/#time">Time</a></li>
+                </ol>
                 <p>Interested in being a volunteer? Anyone can help, no experience is necessary, and you can sign up for a shift that works with your schedule. If you wish to host a drive, please contact us to see what the Maize & Blue Cupboard currently needs.</p>
+                <ol>
+                    <li><a href = "https://mbc.studentlife.umich.edu/how-to-help/#goods">Goods</a></li>
+                </ol>
+                <p>Consider donating produce, canned and dry goods, cookware and personal care items. To ensure the health and safety of students are met, we only accept items that comply with federal, state, and local food safety regulations. See the main How to Help page to learn more.</p>
             </div>
 
-            <ol>
-            <li><a href = "https://mbc.studentlife.umich.edu/how-to-help/#goods">Goods</a></li>
-            </ol>
-
             <div>
-                <p>Consider donating produce, canned and dry goods, cookware and personal care items. To ensure the health and safety of students are met, we only accept items that comply with federal, state, and local food safety regulations. See the main How to Help page to learn more.</p>
-
                 <div>
                     <h3>Donation Tips:</h3>
                     <ol>
@@ -120,7 +128,7 @@
                 </div>
 
                 <div>
-                    <h3>kitchenware and personal care items:</h3>
+                    <h3>Kitchenware and personal care items:</h3>
                     <ol>
                         <li>Pots and pans, cutting boards and knives, plates, bowls and silverware and more.</li>
                         <li>Students can always use items like toilet paper, paper towel and other self-care necessities like shampoo, conditioner and deodorant.</li>
@@ -128,20 +136,20 @@
                 </div>
 
             </div>
-        </div>
+        </section>
 
-        <div>
+        <section>
             <h3>Other Information</h3>
             <ol>
                 <li><h3><a href="https://mbc.studentlife.umich.edu/category/news/">News</a></h3></li>
                 <li><h3><a href = "https://mbc.studentlife.umich.edu/faq/">FAQ</a></h3></li>
             </ol>
-        </div>
+        </section>
 
     </main>
 
     <footer>
-        <h2>Locaiton</h2>
+        <h2>Location</h2>
         <p>Located in the basement of the Betsy Barbour Residence Hall, please enter via the Maynard entrance only to ensure privacy for residents. Please contact us if you need ramp or elevator access.</p>
         <p><a href = "https://www.google.com/maps/place/Betsy+Barbour+Residence,+420+S+State+St,+Ann+Arbor,+MI+48109/@42.2772944,-83.7437539,17z/data=!3m1!4b1!4m5!3m4!1s0x883cae38ac94a547:0xf8a4be6e818a1f4!8m2!3d42.2772944!4d-83.7415652">Address: 420 S State St Ann Arbor, MI 48109</a></p>
         <p>Phone Number: 734-936-2794</p>
