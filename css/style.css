@@ -108,6 +108,10 @@ article {
     margin-bottom: 20px;
 }
 
+.on_page {
+    background-color: gray;
+}
+
 section img {
     border: solid 3px black;
 }
