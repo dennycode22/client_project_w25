@@ -3,7 +3,15 @@
     font-family: 'IBM Plex Sans';
     font-weight: 400;
     src: url('//unpkg.com/@ibm/plex/IBM-Plex-Sans/fonts/complete/woff2/IBMPlexSans-Regular.woff2') format('woff2');
-    overflow: auto ;
+}
+
+.skip {
+    position: absolute;
+    top: -40px;
+}
+
+.skip:focus {
+    top: 70px;
 }
 
 a {
@@ -34,6 +42,8 @@ h3{
 p {
     font-size: 20px;
     margin: 10px 0;
+    padding: 10px;
+    overflow: auto;
 }
 
 li {
@@ -57,15 +67,6 @@ article {
     text-align: center;
     column-gap: 10px;
     row-gap: 10px;
-}
-
-.skip {
-    position: absolute;
-    top: -40px;
-}
-
-.skip:focus {
-    top: 20px;
 }
 
 .div_page_1 p:nth-child(-n + 2){
