@@ -5,6 +5,15 @@
     src: url('//unpkg.com/@ibm/plex/IBM-Plex-Sans/fonts/complete/woff2/IBMPlexSans-Regular.woff2') format('woff2');
 }
 
+body {
+    background-color: #00274C;
+}
+
+header h1{
+    margin: 0 25px;
+    background-color: #FFCB05;
+}
+
 .skip {
     position: absolute;
     top: -40px;
