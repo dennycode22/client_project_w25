@@ -1,5 +1,5 @@
 * {
-    margin-bottom: 10px;
+    margin-bottom: 5%;
     font-family: 'IBM Plex Sans';
     font-weight: 400;
     src: url('//unpkg.com/@ibm/plex/IBM-Plex-Sans/fonts/complete/woff2/IBMPlexSans-Regular.woff2') format('woff2');
@@ -10,19 +10,19 @@ body {
 }
 
 header h1{
-    margin: 0 25px;
+    margin: 0% 10%;
     background-color: #FFCB05;
 }
 
 .skip {
     position: absolute;
-    padding: 10px;
-    top: -40px;
+    padding: 1%;
+    top: -60px;
     background-color: #FFCB05;
 }
 
 .skip:focus {
-    top: 70px;
+    top: 100px;
 }
 
 a {
@@ -47,13 +47,13 @@ h2 {
 
 h3{
     font-size: 25px;
-    margin-top: 10px;
+    margin-top: 10%;
 }
 
 p {
     font-size: 20px;
-    margin: 10px 0;
-    padding: 10px;
+    margin: 5%;
+    padding: 5%;
     overflow: auto;
 }
 
@@ -68,16 +68,15 @@ img {
 }
 
 section {
-    margin: 25px;
-    padding: 10px;
+    margin: 10%;
+    padding: 5%;
 }
 
 article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    column-gap: 10px;
-    row-gap: 10px;
+    column-gap: 5%;
 }
 
 .div_page_1 p:nth-child(-n + 2){
@@ -85,7 +84,7 @@ article {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
 }
 
 .div_page_1 a{
@@ -104,15 +103,9 @@ article {
 
 .three_grid ol {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 17px;
-    row-gap: 10px;
-}
-
-.section_page_3 {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 17px;
+    column-gap: 10%;
+    row-gap: 2%;
 }
 
 .section_page_3 h2, a{
@@ -130,10 +123,10 @@ article {
 .req_list ol{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
-    row-gap: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    column-gap: 10%;
+    row-gap: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .on_page {
@@ -155,13 +148,13 @@ header img {
 header ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
+    column-gap: 10%;
 }
 
 header li {
     border: dashed 3px black;
-    margin: 10px auto;
-    padding: 10px;
+    margin: 5% auto;
+    padding: 5%;
     text-align: center;
     font-size: 23px;
     width: 70%;
@@ -179,14 +172,14 @@ section:nth-child(odd){
 section ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0 0 0 17px;
-    column-gap: 15px;
-    padding: 5px;
-    row-gap: 10px;
+    margin: 0 0 0 10%;
+    column-gap: 10%;
+    padding: 2%;
+    row-gap: 1%;
 }
 
 section ol {
-    margin: 0 0 0 17px;
+    margin: 0 0 0 10%;
 }
 
 section > p{
@@ -199,12 +192,12 @@ main img {
 
 footer {
     background-color: lightgreen;
-    margin: 25px;
+    margin: 12%;
 }
 
 footer p {
     display: inline-block;
-    margin: 25px;
+    margin: 12%;
     font-size: 20px;
     border: 3px solid;
     padding: 2px;
@@ -212,7 +205,7 @@ footer p {
 
 article h3 {
     grid-column: 1 / span 2;
-    margin: 10px 0 0 0;
+    margin: 5% 0 0 0;
 }
 
 article img {
