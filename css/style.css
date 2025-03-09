@@ -16,6 +16,7 @@ header h1{
 
 .skip {
     position: absolute;
+    padding: 10px;
     top: -40px;
     background-color: #FFCB05;
 }
