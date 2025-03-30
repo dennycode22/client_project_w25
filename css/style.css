@@ -170,7 +170,7 @@ section:nth-child(even){
 }
 
 section:nth-child(odd){
-    background-color: #75988d;
+    background-color: #83d9be;
 }
 
 section ul{
@@ -195,7 +195,7 @@ main img {
 }
 
 footer {
-    background-color: lightgreen;
+    background-color: lightblue;
     margin: 12%;
 }
 
@@ -226,8 +226,15 @@ article img {
     padding: 3%;
 }
 
+.error h1 {
+    font-size: 50px;
+    font-weight: 900;  
+    font-family: Helvetica, Arial, sans-serif;   
+    padding: 2%;
+}
+
 .error p{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 900;  
     font-family: Helvetica, Arial, sans-serif;   
     padding: 2%;
@@ -241,22 +248,18 @@ article img {
     
     @keyframes leftSide {
         0% {
-          left: 0;
           transform: translateX(-100%)
         }
         100% {
-          left: 0%;
           transform: translateX(0%)
         }
     }
 
     @keyframes rightSide {
         0% {
-          right: 0;
           transform: translateX(100%)
         }
         100% {
-          right: 0%;
           transform: translateX(0%)
         }
     }
@@ -351,6 +354,7 @@ article img {
         animation-duration: 2s;
         margin-top: 3%;
         width: 90%;
+        border: dashed 5px black;
     }
 
     main div.images:nth-child(even) {
@@ -371,6 +375,7 @@ article img {
         animation-name: rightSide;
         animation-duration: 2s;
         width: 90%;
+        border: dashed 5px black;
     }
 
     .mental_health p {
